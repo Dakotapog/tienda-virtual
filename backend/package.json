@@ -1,0 +1,29 @@
+{
+  "name": "tienda-virtual-backend",
+  "version": "1.0.0",
+  "description": "Backend para tienda virtual - Proyecto académico TSP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "init-db": "node models/database.js"
+  },
+  "keywords": [
+    "tienda",
+    "virtual",
+    "TSP",
+    "academico"
+  ],
+  "author": "Equipo TSP",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7"
+  }
+}
